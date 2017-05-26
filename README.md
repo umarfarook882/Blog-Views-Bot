@@ -34,7 +34,7 @@
   
  ## :octocat:Credits:
 * Umar Farook: [Security Engineer | Researcher](https://www.linkedin.com/in/umar-farook-a45603101)
-* FOS Team : [Fools of Secuirty](https://www.youtube.com/channel/UCEBHO0kD1WFvIhf9wBCU-VQ)
+* FOS Team : [Fools of Security](https://www.youtube.com/channel/UCEBHO0kD1WFvIhf9wBCU-VQ)
 
  ## Support !
   Email address: umarfarookmech712@gmail.com  for more details.
