@@ -13,7 +13,7 @@
      1.Linux operating system with python (Kali linux (or) other Linux OS) or windows with python installed.
      2.Python2.x or above must installed in linux or windows for this tool to work 
            Recommended:Python 2.x 
-     3.Install TorRequest Package for sending request via Tor. 
+     3.Install TorRequest Package for sending request via Tor 
            pip install TorRequest
        
 ## Download:
