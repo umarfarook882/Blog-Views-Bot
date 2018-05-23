@@ -22,9 +22,11 @@
   TorRequest:[TorRequest package](https://pypi.python.org/pypi/torrequest/0.1.0)
   
  ## How it works
-     1.Install and run the tor browser
-     2.After successfully tor is connected, install the TorRequest package.
-     3.Run:Python blog-view.py
+     1.Install the tor using apt-get install tor
+     2.Run the tor from terminal
+     3.By Defualt it use 9050 as Proxy port and 9051 as control port. 
+     4.To change port configuration, Change it in /etc/tor/torrc file 
+     3.Run:Python blog-view.py <proxy port>  <control port> 
      4.Enter your Blog Address  i.e with Protocol(http/https).
      5.Enter The number of Viewers.
      6.Wait for few seconds, it will automatically make request to blog address with different tor ip address.

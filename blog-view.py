@@ -1,5 +1,6 @@
 import requests
 import time
+import sys
 from torrequest import TorRequest
 
 headers = {
@@ -17,6 +18,9 @@ print """\033[1m\033[37m
                                                                      \033[41m FOS- Fools of Security :)
 \033[0m
 """
+#Default Tor port configuration
+proxyPort=9050
+ctrlPort=9051
 site = raw_input("Enter your Blog Address : ")
 blog = input("Enter The number of Viewers : ")
 
@@ -31,10 +35,13 @@ def run():
 
 
 if __name__ == '__main__':
-        with TorRequest() as tr:
+	if len(sys.argv) > 3:
+	   if sys.argv[1] and sys.argv[2]:
+		proxyPort=sys.argv[1]
+		ctrlPort=sys.argv[2]	
+	with TorRequest(proxy_port=proxyPort, ctrl_port=ctrlPort, password=None) as tr:
 	    for i in range(blog):
-	          run()
-    
+		  run()
 		
 			
 
