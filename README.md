@@ -1,5 +1,5 @@
 
-# Blog Views Bot
+# Blog Views Bot - An Amazing Project
 ![banner-fos](https://cloud.githubusercontent.com/assets/22318677/26403443/ecae4d2e-40ab-11e7-9a48-9b1527300cc5.png)
  #### We create this python script for fun to increase blog user view traffic on  website through Tor Network i.e blog user view with different country IP address for every request :) 
  
