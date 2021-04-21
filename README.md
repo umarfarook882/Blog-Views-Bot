@@ -22,7 +22,7 @@
   TorRequest:[TorRequest package](https://pypi.python.org/pypi/torrequest/0.1.0)
   
  ## How it works
-     1.Install the tor using apt-get install tor
+     1.Install the tor using ```apt-get install tor``` or ```brew install tor```
      2.Run the tor from terminal
      3.By Defualt it use 9050 as Proxy port and 9051 as control port. 
      4.To change port configuration, Change it in /etc/tor/torrc file 
